@@ -27,7 +27,7 @@ function Pad({clip, volumen, setRecording}) {
     };
     
     return (
-        <div onClick={playSound} className={`drum-pad btn btn-info p-4 m-3 ${active && "drum-pad btn-primary"}`}>
+        <div onClick={playSound} id="drum-pad" className={`btn btn-info p-4 m-3 ${active && "drum-pad btn-primary"}`}>
             <audio className="clip" id={clip.keyL} src={clip.url}/>
             {clip.keyL}
         </div>

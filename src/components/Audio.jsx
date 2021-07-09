@@ -24,8 +24,8 @@ function Audio() {
   };
 
   return (
-    <div className="bg-light min-vh-100 text-black">
-      <div className="text-center">
+    <div className="bg-light min-vh-100 text-black" id="drum-machine">
+      <div className="text-center" id="display">
         <h2>Drum Machine</h2>
         {audio.map((clip) => (
           <Pad
