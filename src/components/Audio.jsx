@@ -7,7 +7,7 @@ function Audio() {
   const [recording, setRecording] = useState("");
   const [speed, setSpeed] = useState(0.5);
   //verificando array
-  console.log({ audio });
+  //console.log({ audio });
   
   const playRecording = () => {
     let index = 0;
